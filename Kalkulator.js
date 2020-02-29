@@ -94,3 +94,74 @@ var month = new Array("Januari", "Februari", "Maret", "April", "Mei", "Juni", "J
 return("" + dateObj.getDate() + " " + month[dateObj.getMonth()] + " " + dateObj.getFullYear());	
 }
 </script>
+
+<form onsubmit="return pregnancyCalc(this);"><center><table class="tabel"><tbody>
+<tr>
+   <td>Tanggal / Hari Pertama Haid Terakhir (HPHT)</td>
+   <td>
+<select id='tanggal'>
+              <option value=1>1
+              <option value=2>2
+              <option value=3>3
+              <option value=4>4
+              <option value=5>5
+              <option value=6>6
+              <option value=7>7
+              <option value=8>8
+              <option value=9>9
+              <option value=10>10
+              <option value=11>11
+              <option value=12>12
+              <option value=13>13
+              <option value=14>14
+              <option value=15>15
+              <option value=16>16
+              <option value=17>17
+              <option value=18>18
+              <option value=19>19
+              <option value=20>20
+              <option value=21>21
+              <option value=22>22
+              <option value=23>23
+              <option value=24>24
+              <option value=25>25
+              <option value=26>26
+              <option value=27>27
+              <option value=28>28
+              <option value=29>29
+              <option value=30>30
+              <option value=31>31
+          </select>
+<select id='bulan'>
+              <option value=1>Januari
+              <option value=2>Februari
+              <option value=3>Maret
+              <option value=4>April
+              <option value=5>Mei
+              <option value=6>Juni
+              <option value=7>Juli
+              <option value=8>Agustus
+              <option value=9>September
+              <option value=10>Oktober
+              <option value=11>November
+              <option value=12>Desember
+          </select>
+           
+<select id='tahun'>
+              <option value=2013>2013
+              <option value=2014>2014
+              <option value=2015>2015
+              <option value=2016>2016
+              <option value=2017>2017
+              <option value=2018>2018
+              <option value=2019 selected>2019
+              <option value=2020>2020
+              <option value=2021>2021
+              <option value=2022>2022
+          </select>
+   </td>
+</tr>
+<tr>  <td>Rata-rata siklus haid Anda</td>  <td><input maxlength="2" name="cycle" size="2" type="text" value="28" /> hari </td> </tr>
+<tr>  <td colspan="2"><div class="tombol" align="center"><input type="submit" value="Hitung" />  </div></td> </tr>
+</table>
+</div>
